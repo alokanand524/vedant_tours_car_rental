@@ -124,19 +124,19 @@ const HomePage: React.FC = () => {
               {
                 name: 'BMW 3 Series',
                 category: 'Luxury Sedan',
-                price: '$89',
+                price: '₹2999',
                 image: 'https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
               },
               {
                 name: 'Tesla Model 3',
                 category: 'Electric',
-                price: '$95',
+                price: '₹1599',
                 image: 'https://images.pexels.com/photos/3752169/pexels-photo-3752169.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
               },
               {
                 name: 'Mercedes C-Class',
                 category: 'Premium',
-                price: '$99',
+                price: '₹1999',
                 image: 'https://images.pexels.com/photos/2168270/pexels-photo-2168270.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'
               }
             ].map((car, index) => (

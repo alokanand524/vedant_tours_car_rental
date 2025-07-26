@@ -41,8 +41,8 @@ const Header: React.FC = () => {
             to="/"
             className="flex items-center space-x-2 text-2xl font-bold"
           >
-            <Car className={`h-8 w-8 ${isScrolled ? 'text-blue-600' : 'text-white'}`} />
-            <span className={`${isScrolled ? 'text-gray-800' : 'text-white'}`}>
+            <Car className={`h-8 w-8 ${isScrolled ? 'text-blue-600' : 'text-orange-500'}`} />
+            <span className={`${isScrolled ? 'text-black-800' : 'text-gray-800'}`}>
               DriveEasy
             </span>
           </Link>
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                 key={link.path}
                 to={link.path}
                 className={`font-medium transition-colors hover:text-orange-500 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
+                  isScrolled ? 'text-gray-700' : 'text-black'
                 } ${
                   location.pathname === link.path ? 'text-orange-500' : ''
                 }`}
